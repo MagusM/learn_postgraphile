@@ -7,6 +7,8 @@ npx postgraphile \
     --watch \
     --owner-connection postgres:///pg_learn_dev \
     --default-role learn_annonymous \
+    --jwt-token-identifier learn.jwt \
+    --jwt-secret secret_for_jwts \
 
 ##this to run postgraphile locally
 #the \ is continuation of the shell command

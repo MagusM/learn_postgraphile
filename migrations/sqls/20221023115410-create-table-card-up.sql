@@ -27,3 +27,21 @@ COMMENT ON COLUMN learn.card.question IS 'The question to prompt the person';
 COMMENT ON COLUMN learn.card.answer IS 'The answer to the question';
 
 COMMENT ON COLUMN learn.card.archived IS 'Indicates if the card is active or not';
+
+COMMENT ON COLUMN learn.card.review_after IS '@omit create,update
+The next time the card should be reviewed';
+
+COMMENT ON COLUMN learn.card.spacing IS '@omit create,update
+The current spacing in days between reviews';
+
+COMMENT ON COLUMN learn.card.ease_factor IS '@omit create,update
+The ease at which the answer was last remembered';
+
+COMMENT ON COLUMN learn.card.seq IS '@omit create,update
+controls the order in which to review cards.';
+
+COMMENT ON COLUMN learn.card.person_id IS '@omit create,update
+The creator/owner of this card';
+
+COMMENT ON COLUMN learn.card.created_at IS '@omit create,update
+The time this card was created';

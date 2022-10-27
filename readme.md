@@ -8,3 +8,7 @@ npm install @graphile-contrib/pg-simplify-inflector
 npm install postgraphile-plugin-connection-filter
 
 * now we can append plugin in server.sh
+
+
+
+# https://github.com/knowthen/postgraphile_flashcards

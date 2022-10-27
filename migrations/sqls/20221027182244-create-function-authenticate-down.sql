@@ -1,0 +1,1 @@
+DROP learn.authenticate (text, text);
